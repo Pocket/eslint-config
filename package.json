@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Pocket/elsint-config.git"
+    "url": "git@github.com:Pocket/eslint-config.git"
   }
 }
