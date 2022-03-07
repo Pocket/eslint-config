@@ -12,6 +12,7 @@ jobs:
   validator:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: RoadieHQ/backstage-entity-validator@v0.3.2
         with:
           path: 'catalog-info.yaml'
