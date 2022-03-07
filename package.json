@@ -1,0 +1,52 @@
+{
+  "name": "@pocket-tools/eslint-config",
+  "version": "0.0.0-development",
+  "description": "ESLint Config used across Pocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elsint"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "5.14.0",
+    "@typescript-eslint/parser": "5.14.0",
+    "eslint": "8.10.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "prettier": "2.5.1",
+    "semantic-release": "^19.0.2"
+  },
+  "publishConfig": {
+    "cache": "~/.npm",
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Pocket/elsint-config.git"
+  }
+}

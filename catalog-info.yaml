@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eslint-config
+  description: ESLint Config used across Pocket
+  annotations:
+    github.com/project-slug: pocket/eslint-config
+    github.com/team-slug: Pocket/backend
+spec:
+  type: library
+  lifecycle: production
+  owner: backend
+
