@@ -5,6 +5,9 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
     ],
+    // by default, eslint ignores directories beginning with a .
+    // the below tells eslint *not* to ignore the .aws directory
+    ignorePatterns: ['!/.aws'],
     plugins: [],
     rules: {
         'prettier/prettier': [
