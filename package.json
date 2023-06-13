@@ -12,17 +12,17 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.28.0",
-    "@typescript-eslint/parser": "5.28.0",
-    "eslint": "8.18.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "prettier": "2.7.1"
+    "@typescript-eslint/eslint-plugin": "5.59.11",
+    "@typescript-eslint/parser": "5.59.11",
+    "eslint": "8.42.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.8"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.2",
+    "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "semantic-release": "19.0.5"
+    "semantic-release": "21.0.5"
   },
   "publishConfig": {
     "cache": "~/.npm",
@@ -42,5 +42,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:Pocket/eslint-config.git"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
